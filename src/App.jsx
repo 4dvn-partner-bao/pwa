@@ -108,8 +108,8 @@ export default function App() {
     }
     const reg = await navigator.serviceWorker.ready;
     // Hiển thị notification qua SW registration (chuẩn best-practice)
-    await reg.showNotification("Test PWA 🚀", {
-      body: "Đây là local notification (không qua push server).",
+    await reg.showNotification("Learning Hub", {
+      body: "Đăng kí thành công gói 4 tiếng",
       icon: "/icon.png",
       badge: "/icon.png",
       data: "/",
