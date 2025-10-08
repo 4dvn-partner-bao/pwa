@@ -2,7 +2,7 @@
 import React, { useEffect, useMemo, useState } from "react";
 
 // === Nhập khóa VAPID public của bạn (base64url, không header/footer) ===
-const VAPID_PUBLIC_KEY = "REPLACE_WITH_YOUR_VAPID_PUBLIC_KEY";
+const VAPID_PUBLIC_KEY = "BOEohtvt_b2ArmaAUb0D2Ugk0tCJwq3J1fz83CTjMPzOc-znlUbLweDH95Isdt-rSvd4KlMhmIfFePztgvyVbQo";
 
 // Helper: convert base64url -> Uint8Array cho pushManager.subscribe
 function urlBase64ToUint8Array(base64String) {
