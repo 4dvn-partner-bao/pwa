@@ -110,8 +110,8 @@ export default function App() {
     // Hiển thị notification qua SW registration (chuẩn best-practice)
     await reg.showNotification("Test PWA 🚀", {
       body: "Đây là local notification (không qua push server).",
-      icon: "/icons/icon-192.png",
-      badge: "/icons/icon-192.png",
+      icon: "/icon.png",
+      badge: "/icon.png",
       data: "/",
     });
   };
