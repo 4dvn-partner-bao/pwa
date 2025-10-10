@@ -11,6 +11,7 @@ import "./index.css";
 import Profile from "./pages/Profile.jsx";
 import History from "./pages/History.jsx";
 import PWA from "./pages/PWA.jsx";
+import Map from "./pages/Map.jsx";
 
 const router = createBrowserRouter([
   {
@@ -23,9 +24,9 @@ const router = createBrowserRouter([
       { path: "checkout", element: <Checkout /> },
       { path: "receipt", element: <Receipt /> },
       { path: "profile", element: <Profile /> },
-            { path: "history", element: <History /> },   // ⬅️ lịch sử
-            { path: "pwa", element: <PWA /> },   // ⬅️ lịch sử
-
+      { path: "history", element: <History /> }, // ⬅️ lịch sử
+      { path: "pwa", element: <PWA /> }, // ⬅️ lịch sử
+      { path: "map", element: <Map /> }, // ⬅️ lịch sử
     ],
   },
 ]);
